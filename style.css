@@ -9,12 +9,19 @@
 /* Background colors */
 .bg-light {
   background-color: var(--color-2)!important;
+  padding: 0 1rem !important;
+}
+.bg-light #main_title {
+  font-size: 24px !important;
+}
+.bg-light img {
+  width: 60px;
 }
 .bg-success {
   background-color: var(--color-3)!important;
 }
 
-body{
+body {
     margin: 0 auto;
     height: 100vh;
     width: 100%;
@@ -22,13 +29,17 @@ body{
 
 
  /*----NAVBAR---------------*/
-.navbar-brand{                            
+.navbar, .navbar img, .navbar #main_title {
+  transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+ .navbar-brand {                            
     margin-top: 0px;
     margin-left: 0px;
     z-index: 100;
       }
 
-#navbarNav{
+#navbarNav {
   color: black;
   font-weight: bold;
   font-size: 18px;
@@ -89,7 +100,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 }
 
 /*----MAIN-TITLE----*/
-#main_title{
+#main_title {
   color: black;
   font-weight: bold;
 }      
@@ -104,7 +115,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   z-index: auto;
 }
  
-  #banner_title{
+  #banner_title {
   font-family: 'Mr Dafoe', Impact, "Arial Black", Verdana, sans-sherif;
   color: black;
   font-weight: bold;
@@ -114,7 +125,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   @image: 'http://pancaketheorem.com/stuff/demos/borderimage/wood.png';
   @bgImage:'http://tumodaurbana.com/wp-content/uploads/2013/05/tumodaurbana-expo-dali.jpg';
   @size:200px;
-#media-box{
+#media-box {
   margin-top: -100px;
   width: 65%;
   /*box-shadow: 80px 80px 80px rgba(6, 6, 7, 0.2);
@@ -135,7 +146,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 }
 
  /*-----FOOTER---------*/
-footer{  
+footer {  
   margin-top: 25px;
-  padding-bottom: 20px;
+  /*padding-bottom: 20px;*/
 }
