@@ -29,7 +29,11 @@ body {
 
 
  /*----NAVBAR---------------*/
-.navbar, .navbar img, .navbar #main_title {
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+ .navbar, .navbar img, .navbar #main_title {
   transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
