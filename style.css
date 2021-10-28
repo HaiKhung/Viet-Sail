@@ -125,11 +125,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   font-weight: bold;
 }
 
-/*-----VIDEO------------*/      
+/*-----VIDEO------------*/  
   @image: 'http://pancaketheorem.com/stuff/demos/borderimage/wood.png';
   @bgImage:'http://tumodaurbana.com/wp-content/uploads/2013/05/tumodaurbana-expo-dali.jpg';
   @size:200px;
 #media-box {
+  padding: 0%;
   margin-top: -100px;
   width: 65%;
   /*box-shadow: 80px 80px 80px rgba(6, 6, 7, 0.2);
@@ -153,4 +154,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 footer {  
   margin-top: 25px;
   /*padding-bottom: 20px;*/
+}
+
+#aboutUs img{
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+  border: #000 solid 1px;
+}
+
+.row{
+  justify-content: center;
+}
+
+/*----------FLAG---------*/
+#contactUs img{
+  width: 20px;
+}
+
+#vietnamFlag{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
 }
