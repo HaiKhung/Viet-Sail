@@ -11,15 +11,21 @@
   background-color: var(--color-2)!important;
   padding: 0 1rem !important;
 }
-.bg-light #main_title {
-  font-size: 24px !important;
-}
-.bg-light img {
-  width: 60px;
-}
 .bg-success {
   background-color: var(--color-3)!important;
 }
+.btn-primary {
+  background-color: var(--color-1)!important;
+}
+
+.bg-light #main_title {
+  font-size: 24px !important;
+}
+
+.bg-light img {
+  width: 60px;
+}
+
 
 body {
     margin: 0 auto;
@@ -109,6 +115,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
   font-weight: bold;
 }      
 
+/*-----MAIN-CONTENT-CARD---*/
+#mainCardTop {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.card {
+  display: flex;
+  margin: 15px;
+  border: #000 solid 2px;
+}
+
+#more{
+  display: none;
+}
+
 /*-----BANNER IMAGE-----*/
 .banner-image {
   background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0.3)), url('assets/imagesVsails/accueilVs.jpg');
@@ -167,7 +189,7 @@ footer {
   justify-content: center;
 }
 
-/*----------FLAG---------*/
+/*----------FLAG-FOOTER--------*/
 #contactUs img{
   width: 20px;
 }
