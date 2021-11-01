@@ -55,6 +55,11 @@ body {
   font-size: 18px;
 }
 
+.navbar-toggler {
+  background-color: #000;
+}
+
+
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
   position: fixed;
