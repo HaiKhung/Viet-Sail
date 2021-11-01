@@ -39,7 +39,7 @@ body {
   text-align: center;
 }
 
- .navbar, .navbar img, .navbar #main_title {
+ .navbar, .navbar img, .navbar #main_title, .icon-bar {
   transition: all 1s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -64,6 +64,11 @@ body {
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
   z-index: 3;
+}
+
+.icon-bar.hide {
+  pointer-events: none;
+  opacity: 0;
 }
 
 /* Style the icon bar links */
