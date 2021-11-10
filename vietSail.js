@@ -1,21 +1,21 @@
 //-----NAVBAR-SCROLL----//
 window.addEventListener('scroll', function () {
 		
-    if (window.pageYOffset > 100) {
-	      $('.navbar').addClass("bg-light");
-			} else {
-        $('.navbar').removeClass("bg-light");  
-			}
+     if (window.pageYOffset > 100) {
+ 	      $('.navbar').addClass("bg-light");
+ 			} else {
+         $('.navbar').removeClass("bg-light");  
+ 			}
       
-    var bottomViewPort = $(window).scrollTop() + $(window).height();
-    var footerTop = $('#topFooter').offset().top;
+     var bottomViewPort = $(window).scrollTop() + $(window).height();
+     var footerTop = $('#topFooter').offset().top;
 
-    if (bottomViewPort >= footerTop) {
-      $('.icon-bar').addClass("hide");
-    } else {
-      $('.icon-bar').removeClass("hide");
-    }
-		});
+     if (bottomViewPort >= footerTop) {
+       $('.icon-bar').addClass("hide");
+     } else {
+       $('.icon-bar').removeClass("hide");
+     }
+ 		});
   
 //------PICTURE-SIZE-ONCLICK-----//
 //$(document).ready(function () {
