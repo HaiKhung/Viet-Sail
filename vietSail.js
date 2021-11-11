@@ -45,25 +45,7 @@ function myFunction() {
   }
 }
 
-//-----HIDE-SOCIAL-MEDIA-BAR----//
-// $(document).ready(function () {
 
-//   $(document).scroll(function () {
-
-//     var footerSelector = '#topFooter';
-//     var socialBarSelector = '.icon-bar';
-
-//     var bottomViewPort = $(window).scrollTop() + $(window).height();
-//     var footerTop = $(footerSelector).offset().top;
-
-//     if (bottomViewPort >= footerTop) {
-//       $(socialBarSelector).addClass("hide");
-//     } else {
-//       $(socialBarSelector).addClass("show");
-//     }
-//   });
-
-// });
 
 
 

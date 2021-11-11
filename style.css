@@ -34,7 +34,7 @@ body {
       }
 
 
- /*----NAVBAR---------------*/
+ /*----NAVBAR-INDEX--------*/
 .navbar .navbar-collapse {
   text-align: center;
 }
@@ -67,6 +67,15 @@ body {
 
 .navbar-toggler {
   background-color: #000;
+}
+
+/*-----NAVBAR--PAGE---*/
+.navbar-page {
+  display: flex;
+}
+
+#main_title_page {
+  padding-top: 5%;
 }
 /*------END---NAVBAR---*/
 
@@ -151,6 +160,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', end
 #more{
   display: none;
 }
+
+/*---Facbook-comments--*/
+element.style {
+  display: flex;
+}
 /*---END MAIN TITTLE----*/
 
 /*-----BANNER IMAGE-----*/
@@ -213,6 +227,18 @@ footer {
   justify-content: center;
 }
 
+/*----Footer-icon-Bar---*/
+.footer-icon-bar a {
+  display: inline-flex;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+
 /*----------FLAG-FOOTER--------*/
 #contactUs img{
   width: 20px;
@@ -225,6 +251,3 @@ footer {
 }
 /*-----END FOOTER----*/
 
-element.style {
-  display: flex;
-}
