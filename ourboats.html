@@ -60,23 +60,34 @@
 	<script type="text/javascript" src="vietSail.js"></script>
 
     <!-- Navbar  -->
+	<header>
 	<div class="row">
         <div class="col">
-            <nav class="navbar-page navbar-expand-lg bg-dark navbar-dark">
+            <nav class="navbar-page navbar-expand-lg bg-success navbar-light p-md-3">
                 <a class="navbar-brand" href="index.html">
                     <img src="assets/imagesVsails/VS_Logo_Black.png" width="150" height="" alt="site logo"></a>
-                <h1 id="main_title" class="text-white">Our Boat</h1>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarContent">
-                    <span class="navbar-toggler-icon">
-                    </span>
+                <h1 id="main_title_page">Our Boats</h1>
+			<div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navbar">
+				<span class="navbar-toggler-icon"></span>
                 </button>
+			</div>
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<div class="mx-auto"></div>
 				<ul class="navbar-nav">
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Our Boats</a>
-					</li>
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" href="ourboats.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  Our Boats
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						  <li><a class="dropdown-item" href="#">Optimist</a></li>
+						  <li><a class="dropdown-item" href="#">New Cat 16</a></li>
+						  <li><a class="dropdown-item" href="#">Booxy</a></li>
+						  <li><a class="dropdown-item" href="#">5o5</a></li>
+						  <li><a class="dropdown-item" href="#">Rs 600</a></li>
+						</ul>
+					  </li>
 					<li class="nav-item">
 						<a class="nav-link" href="#">Tours</a>
 					</li>
@@ -99,6 +110,10 @@
 			</div>
 		</nav>
 	</div>
+	<div class="banner-image-page">
+         <img src="assets/imagesVsails/3boats.jpg" alt="Pictures 3 boats" width="100%" height="500vh">
+	</div>
+</header>
 
 </body>
 
