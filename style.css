@@ -89,6 +89,13 @@ body {
   right: 5%;
 } 
 
+/*----Dropdown-Menu---*/
+@media only screen and (min-width: 768px) {
+  .dropdown:hover .dropdown-menu {
+    display: block;
+}
+}
+
 /*------END---NAVBAR---*/
 
 /*-----SOCIAL-MEDIA-BAR Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
@@ -194,6 +201,14 @@ element.style {
   color: black;
   font-weight: bold;
 }
+
+/*---BANNER IMAGE PAGE----*/
+#banner_title_page {
+  position: absolute;
+  border-bottom: 10px solid black;
+  padding-bottom: 2%;
+}
+
 /*---END BANNER IMAGE-----*/
 
 /*-----VIDEO------------*/  
@@ -221,6 +236,17 @@ element.style {
   -webkit-box-shadow: inset 0px 0px 10px rgba(0,0,0,1);
 }
 /*----END VIDEO------*/
+
+/*---SECTION-PAGE----*/
+.our-boats .row>* {
+  display: flex;
+}
+
+.our-boats img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
 
  /*-----FOOTER---------*/
 footer {  
@@ -262,4 +288,3 @@ footer {
   border-radius: 50%;
 }
 /*-----END FOOTER----*/
-

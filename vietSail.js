@@ -1,4 +1,4 @@
-//-----NAVBAR-SCROLL----//
+//-----NAVBAR-SCROLL-AND-SOCIAL-MEDIA----//
 window.addEventListener('scroll', function () {
 		
      if (window.pageYOffset > 100) {
