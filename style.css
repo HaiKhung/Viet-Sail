@@ -26,6 +26,13 @@
   width: 60px;
 }
 
+/*----@MEDIA---*/
+@media screen and (max-width: 768px) {
+  .our-boats  {
+    text-align: center;
+}
+}
+
 
 body {
     margin: 0 auto;
@@ -76,11 +83,11 @@ body {
 
 #main_title_page {
   padding-top: 5%;
-  color: var(--color-1);
+  color: rgba(20, 15, 15, 0.719);
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color:var(--color-1);
+  color: rgba(20, 15, 15, 0.719);
 }
 
 .navbar-light .navbar-toggler {
@@ -88,15 +95,12 @@ body {
   top: 5%;
   right: 5%;
 } 
-
-/*----Dropdown-Menu---*/
-@media only screen and (min-width: 768px) {
-  .dropdown:hover .dropdown-menu {
-    display: block;
-}
-}
-
 /*------END---NAVBAR---*/
+
+/*-----DROPDOWN-MENU----*/
+li.dropdown:hover > ul {
+  display: block;
+}
 
 /*-----SOCIAL-MEDIA-BAR Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
@@ -205,9 +209,14 @@ element.style {
 /*---BANNER IMAGE PAGE----*/
 #banner_title_page {
   position: absolute;
-  border-bottom: 10px solid black;
+  border-bottom: 10px solid #8DF3D8;
+  margin-bottom: 7.5rem;
   padding-bottom: 2%;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #1E5D57;
 }
+
 
 /*---END BANNER IMAGE-----*/
 
@@ -239,13 +248,32 @@ element.style {
 
 /*---SECTION-PAGE----*/
 .our-boats .row>* {
-  display: flex;
+  color: #1E5D57;
+  margin-top: 50px;
 }
 
 .our-boats img {
   height: 250px;
   width: 250px;
   border-radius: 50%;
+}
+
+.our-boats h4 {
+  font-weight: bold;
+  font-size: 1.9rem;
+}
+
+.our-boats p {
+  font-size: 1.6rem;
+  letter-spacing: -1px;
+  line-height: 30px;
+  
+}
+
+.our-boats .italic-text {
+  font-size: 1rem;
+  font-style: italic;
+  color: #1E5D57;
 }
 
  /*-----FOOTER---------*/
@@ -288,3 +316,4 @@ footer {
   border-radius: 50%;
 }
 /*-----END FOOTER----*/
+
