@@ -232,6 +232,20 @@ element.style {
 .row {
   padding: 0%;
 }
+
+/*-----BANNER IMAGE PAGE 2 */
+#banner_tours {
+  height: 25vh;
+  background-color: var(--color-4);
+}
+
+#banner_tours h3 {
+  position: relative;
+  top: 40%;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
 /*---END BANNER IMAGE-----*/
 
 /*-----VIDEO------------*/  
@@ -329,6 +343,10 @@ footer {
 /*----------FLAG-FOOTER--------*/
 #contactUs img{
   width: 20px;
+}
+
+.text-dark {
+  margin-top: 10px;
 }
 
 #vietnamFlag{
