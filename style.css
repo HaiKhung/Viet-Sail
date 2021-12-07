@@ -311,6 +311,27 @@ element.style {
   color: #1E5D57;
 }
 
+/*---SECTION-PAGE2--*/
+.tours {
+  position: relative;
+  display: flex;
+  margin: 5%;
+}
+
+.img_card1_page2 img {
+  width: 220px;
+}
+
+.footer-card {
+  
+}
+/*---END-SECTION-PAGE2--*/
+
+/*---CAROUSEL-PAGE2--*/
+.carousel-item img {
+  height: 55vh;
+}
+
  /*-----FOOTER---------*/
 footer {  
   margin-top: 25px;
@@ -324,7 +345,7 @@ footer {
   border: #000 solid 1px;
 }
 
-.row{
+footer .row {
   justify-content: center;
 }
 
