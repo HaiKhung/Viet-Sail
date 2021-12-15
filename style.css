@@ -297,18 +297,14 @@ element.style {
 
 .row {
   padding: 0%;
+  margin: 0%;
 }
 
 /*-----BANNER-IMAGE-PAGE-TOURS */
 #banner_tours {
-  height: 25vh;
-  background-color: var(--color-4);
-}
-
-#banner_tours h3 {
-  position: relative;
-  top: 40%;
-  text-align: center;
+  position: absolute;
+  margin-left: 50%;
+  margin-bottom: 25%;
   font-size: 2.5rem;
 }
 
@@ -390,12 +386,41 @@ element.style {
   padding: 5%;
 }
 
+.tours p.card-text {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
 .tours img {
   height: 45vh;
 }
 
+.h-90 {
+  background-color: var(--color-4);
+}
+
+#lastCard7Page2 {
+  position: relative;
+  left: 25%;
+}
+
+/*----@MEDIA---*/
+@media screen and (max-width: 768px) {
+  #lastCard7Page2 {
+    left: 0%;
+}
+}
+
 .footer-card {
-  
+  text-align: center;
+}
+
+.footer-card h2 {
+  font-weight: bold;
+}
+
+.footer-card p {
+  font-size: 1.3rem;
 }
 /*---END-SECTION-PAGE-TOURS--*/
 
