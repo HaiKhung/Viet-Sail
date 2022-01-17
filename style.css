@@ -104,7 +104,7 @@
 body {
     margin: 0 auto;
     width: 100%;
-      }
+}
 
 
  /*----NAVBAR-INDEX--------*/
@@ -295,8 +295,12 @@ element.style {
   color: #1E5D57;
 }
 
-.row {
-  padding: 0%;
+.banner-image-page {
+  background-color: var(--color-1);
+  padding-bottom: 20px;
+}
+
+.row>* {
   margin: 0%;
 }
 
@@ -427,6 +431,43 @@ element.style {
 /*---CAROUSEL-PAGE-TOURS--*/
 .carousel-item img {
   height: 55vh;
+}
+
+/*----SECTION-PAGE-LESSONS--*/
+#lessons-top {
+  width: 100%;
+  background-color: var(--color-3);
+}
+
+#home-lessons {
+  width: 100%;
+  background-color: var(--color-3);
+  padding-top: 25px;
+}
+
+#home-lessons h4 {
+  background-color: #fff;
+  width: 30%;
+  height: 8vh;
+  border-radius: 0px 20px 20px 0px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--color-2);
+  padding-left: 1%;
+}
+
+#home-lessons .list-group-item {
+  border: none;
+  background-color: var(--color-3);
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 1.4rem;
+  font-weight: 400;
+  display: list-item;
+}
+
+#home-lessons span {
+  font-weight: 800;
 }
 
  /*-----FOOTER---------*/
