@@ -1,0 +1,90 @@
+/*--margin--*/
+.mt-6 {
+  margin-top: 5rem !important;
+}
+
+.mt-xs-7,
+.mt-sm-7 {
+  margin-top: 6.5rem !important;
+}
+
+:root {
+  --color-1: #A64672;
+  /*----Title---*/
+  --color-2: #55736D;
+  /*----Text---*/
+  --color-3: #69BF97;
+  /*----Background---*/
+  --color-4: #5DA684;
+  /*----Background---*/
+  --color-5: #8EBFA3;
+  /*----Graphics---*/
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/*---Navigation---*/
+#section-navigation {
+  position: relative;
+  right: 0;
+  width: 100%;
+  min-height: 750px;
+  padding: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+#section-navigation header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#section-navigation iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 750px;
+  max-height: 750px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#section-navigation .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 750px;
+  max-height: 750px;
+  background: var(--color-5);
+  opacity: 0.8;
+}
+/*# sourceMappingURL=styles.css.map */

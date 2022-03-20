@@ -1,0 +1,23 @@
+/*--margin--*/
+.mt-6 {
+  margin-top: 5rem !important;
+}
+
+.mt-xs-7,
+.mt-sm-7 {
+  margin-top: 6.5rem !important;
+}
+
+:root {
+  --color-1: #A64672;
+  /*----Title---*/
+  --color-2: #55736D;
+  /*----Text---*/
+  --color-3: #69BF97;
+  /*----Background---*/
+  --color-4: #5DA684;
+  /*----Background---*/
+  --color-5: #8EBFA3;
+  /*----Graphics---*/
+}
+/*# sourceMappingURL=variables.css.map */
