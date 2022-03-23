@@ -31,7 +31,7 @@ body {
   overflow-x: hidden;
 }
 
-/*---Navigation---*/
+/*--Section-Navigation---*/
 #section-navigation {
   position: relative;
   right: 0;
@@ -66,7 +66,7 @@ body {
           align-items: center;
 }
 
-#section-navigation iframe {
+#section-navigation video {
   position: absolute;
   top: 0;
   left: 0;
@@ -85,6 +85,31 @@ body {
   height: 750px;
   max-height: 750px;
   background: var(--color-5);
-  opacity: 0.8;
+  opacity: 0.5;
+}
+
+/*--Section-Eco--*/
+#section-eco .background-image {
+  position: relative;
+  height: 450px;
+}
+
+#section-eco .background-image::before {
+  content: "";
+  background-image: url(assets/imagesVsails/fishTurtuleIsland2.jpg);
+  background-color: var(--color-1);
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  height: 450px;
+}
+
+#section-eco .text {
+  position: relative;
 }
 /*# sourceMappingURL=styles.css.map */
