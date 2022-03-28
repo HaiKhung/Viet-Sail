@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
     <title>Viet Sail Phu Quoc</title>
     <!-- Load font awesome icons for social media -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Favicon -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_Vs">
@@ -40,7 +41,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
 
 </head>
 
@@ -50,32 +52,38 @@
         <header>
             <div class="container-fluid g-0">
                 <div class="row">
-                  <nav class="navbar navbar-expand-lg navbar-light">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  <nav class="navbar navbar-expand-lg navbar-light position-xs-sm-only-fixed p-0">
+                    <button class="navbar-toggler button-navbar-fixed" type="button" data-bs-toggle="collapse"
                       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                       aria-expanded="false" aria-label="Toggle navigation">
                       <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav">
+                    <div class="collapse navbar-collapse justify-content-end pe-lg-5" id="navbarSupportedContent">
+                      <ul class="navbar-nav ul-navbar-content fs-5 fw-bold">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Our-Boat</a>
+                            <a class="nav-link active mt-5 mt-lg-0" aria-current="page" href="#">Eco-friendly</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Our-Tours</a>
+                            <a class="nav-link" href="#">Our-Offers</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Lessons</a>
+                            <a class="nav-link" href="#">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link disabled">Contact</a>
+                            <a class="nav-link" href="#">Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="+84776830072"><i class="fa-solid fa-phone"></i>+84 77 683 0072</a>
                         </li>
                       </ul>
                     </div>
                   </nav>
                 </div>
               </div>
-              <div class="container-fluid background-content mt-xs-7 mt-sm-7 g-0">
+            <div class="container-fluid background-content mt-5 mt-lg-3 g-0">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-md-8 col-sm-12 mx-auto">
@@ -83,13 +91,16 @@
                                 <img class="w-25" src="assets/imagesVsails/VS_Logo_Black.png" alt="">
                             </div>
                             <div class="text text-center">
-                                <h4>Sailing Club</h4>
-                                <h1>Learn Sailing In The Vietnamese Island Paradise</h1>
-                                <p>Auctor sem massa mattis sem at interdum magna augue eget diam
-                                    vestibulum ante ipsum primis in faucibus orci luctus
+                                <h4 class="fs-3 text-danger">SAILING CLUB</h4>
+                                <h1 class="fs-3 fs-2"><span class="fs-2 fs-1 fw-bold">LEARN SAILING</span> <br />
+                                    In The Vietnamese Island Paradise</h1>
+                                <p class="w-50 mx-auto fw-bold">
+                                    We are happy to assist with organizing
+                                    transportation to our locations.
+            
                                 </p>
                                 <div class="button">
-                                    <a class="btn btn-danger" href="#" role="button">Text</a>
+                                    <a class="btn btn-danger w-50" href="#" role="button">BOOK HERE</a>
                                 </div>
                             </div>
                         </div>
@@ -115,10 +126,16 @@
             <div class="container pt-5 pb-5">
                 <div class="row">
                     <div class="col-12 pb-3 text text-center">
-                        <h2>Individual, unique, ecological.</h2>
-                        <p>Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum
-                            magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus
-                            et ultrices posuere cubilia Curae; Morbi lacinia molestie dui.
+                        <h2 class="fw-bold pb-3">Individual, unique, ecological.</h2>
+                        <p class="fs-5">The sailboat remains the most responsible way to navigate and explore the coasts and islands. 
+                            It requires a very modest use of the engine and generates low CO2 emissions. 
+                            The sailing boat is also a silent means of transport, no noise pollution.
+                        </p>
+                        <p class="fs-5">    
+                            We also adopt environmentally friendly behaviour to preserve marine biodiversity and ensure its sustainability.
+                            The sea is a rich space to be preserved. 
+                            The seabed is fragile and anchoring can damage certain protected species. 
+                            We choose an anchorage area according to the bottom and drop our anchor on a light-coloured sandy area.
                         </p>
                     </div>
                 </div>
@@ -131,15 +148,17 @@
         <div class="container-fluid bg-info">
             <div class="container pt-5 pb-5">
                 <div class="row">
-                    <h2 class="text-center pb-3">Our Offers</h2>
+                    <h2 class="text-center fw-bold pb-3">Our Offers</h2>
                     <div class="col-sm-12 col-md-4 col-lg-4 pt-3">
                         <div class="card">
                             <img src="assets/imagesVsails/beachTour.jpg" class="card-img-top" alt="beach picture" height="350px">
                             <div class="card-body">
-                                <h5 class="card-title">Our Tours</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <h5 class="card-title">Tours</h5>
+                                <p class="card-text">
+                                    Come discover our tours, in the southern or northern islands.
+                                    At sunrise or sunset, possibility to eat and drink on site
+                                </p>
+                                <a href="tours.html" class="btn btn-primary">Book A Tour</a>
                             </div>
                         </div>
                     </div>
@@ -148,9 +167,13 @@
                             <img src="assets/imagesVsails/training.jpg" class="card-img-top" alt="Pierre training 3 guests" height="350px">
                             <div class="card-body">
                                 <h5 class="card-title">Training</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <p class="card-text">
+                                    To do this, you have to learn to tame the elements and to be fulfilled with the wind, the currents and
+                                    the swell. Sailing is therefore a complete sport that requires theoretical knowledge - about the
+                                    weather, the sea, the wind - and physical effort distributed over the whole body to hoist the sails and
+                                    trim them.
+                                </p>
+                                <a href="training.html" class="btn btn-primary">Click To See More</a>
                             </div>
                         </div>
                     </div>
@@ -159,9 +182,11 @@
                             <img src="assets/imagesVsails/windExplication.jpg" class="card-img-top" alt="3 boats" height="350px">
                             <div class="card-body">
                                 <h5 class="card-title">Lessons</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                    of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                                <p class="card-text">
+                                    Learn to sail from scratch
+                                    Live your dreams, learn to sail and set sail
+                                </p>
+                                <a href="lessons.html" class="btn btn-primary">Click To See More</a>
                             </div>
                         </div>
                     </div>
@@ -181,18 +206,30 @@
                             <img src="assets/imagesVsails/3boats.jpg" class="card-img-top" alt="3 boats">
                             <div class="card-body">
                               <h5 class="card-title">Our Boats</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                              <p class="card-text">
+                                Most of our boats are
+                                located in the north of the
+                                island. We have one more
+                                small cruiser boat near
+                                Sao Beach that can be
+                                booked for small group
+                                tours (up to 8 people
+                              </p>
+                              <a href="ourboats.html" class="btn btn-primary">Click To See More</a>
                             </div>
                           </div>
                     </div>
                     <div class="col-sm-12 col-md-4 col-lg-4 pt-3 mx-auto">
                         <div class="card">
-                            <img src="assets/imagesVsails/3boats.jpg" class="card-img-top" alt="3 boats">
+                            <img src="assets/imagesVsails/about-us.jpg" class="card-img-top" alt="3 boats">
                             <div class="card-body">
                               <h5 class="card-title">About Us</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                              <p class="card-text">
+                                  Some quick example text to build on the card title and make up the bulk of the card's content.
+                                </p>
+                              <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                See More
+                              </button>
                             </div>
                           </div>
                     </div>
@@ -208,25 +245,25 @@
                 <div class="row">
                     <div class="pb-3">
                         <h2>Some Numbers</h2>
-                        <p>
+                        <p class="fs-6">
                             Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum augue eget diam.
                         </p>
                     </div>
                     <div class="col-sm-12 col-md-3 col-lg-3">
-                        <p>500</p>
-                        <p>Folowers</p>
+                        <p class="p-0 fs-2 fw-bold" id="counter1"></p>
+                        <p class="fs-3">Folowers</p>
                     </div>
                     <div class="col-sm-12 col-md-3 col-lg-3">
-                        <p>3</p>
-                        <p>Trainers</p>
+                        <p class="fs-2 fw-bold">3</p>
+                        <p class="fs-3">Trainers</p>
                     </div>
                     <div class="col-sm-12 col-md-3 col-lg-3">
-                        <p>107</p>
-                        <p>Lessons done</p>
+                        <p class="fs-2 fw-bold">107</p>
+                        <p class="fs-3">Lessons done</p>
                     </div>
                     <div class="col-sm-12 col-md-3 col-lg-3">
-                        <p>97%</p>
-                        <p>Satisfaction</p>
+                        <p class="fs-2 fw-bold">97%</p>
+                        <p class="fs-3">Satisfaction</p>
                     </div>
                 </div>
             </div>
@@ -241,7 +278,7 @@
                     <h2 class="pb-3 text-center">Text</h2>
                     <div class="col-sm-12 col-md-8 col-lg-8 mx-auto">
                         <video class="w-100" autoplay="autoplay" playsinline="playsinline" muted="false" loop="loop" id="video">
-                            <source src="assets/video/video-Vs1.mp4" type="video/mp4" />
+                            <source src="assets/video/video-Vs2.mp4" type="video/mp4" />
                         </video>
                     </div>
                 </div>
@@ -279,7 +316,7 @@
     </section>
 
     <!--Contact-->
-    <section id="contact">
+    <section id="section-contact">
         <div class="container-fluid bg-dark">
             <div class="container pt-5 pb-5">
                 <div class="row">
@@ -316,9 +353,42 @@
     </section>
 
     <!--Footer-->
-    <section id="footer"></section>
+    <section id="section-map">
+        <div class="container-fluid bg-dark">
+            <div class="row">
+                <div class="col-12 pt-5 pb-5">
+                    <iframe class="w-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3924.592361026011!2d103.85749648185823!3d10.374441990919479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31081f011e0066c1%3A0x55725ddc2d731b15!2zUmVzb3J0IEdpw7MgQmnhu4NuIFBow7ogUXXDtGM!5e0!3m2!1sfr!2s!4v1635102150070!5m2!1sfr!2s"
+                        allowfullscreen="" loading="lazy" allowfullscreen="" loading="lazy" style="height: 40vh;">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!---->
+    <!-- Modal -->
+    <section id="section-modal">
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
 </body>
 
 </html>
