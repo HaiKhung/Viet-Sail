@@ -136,7 +136,7 @@ body {
 
 #section-eco .background-image::before {
   content: "";
-  background-image: url(assets/imagesVsails/fishTurtuleIsland2.jpg);
+  background-image: url(/assets/imagesVsails/fishTurtuleIsland2.jpg);
   background-color: var(--color-1);
   background-size: cover;
   background-repeat: no-repeat;
@@ -151,6 +151,30 @@ body {
 }
 
 #section-eco .text {
+  position: relative;
+}
+
+#section-eco .text::before {
+  content: "";
+  background-color: var(--color-3);
+  border: var(--color-1) solid 2px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  opacity: 0.5;
+  width: 90%;
+  max-height: 780px;
+  height: 100%;
+  position: absolute;
+}
+
+#section-eco .block-text {
+  text-align: center;
+  margin: auto;
+  max-height: 755px;
+  height: 100%;
+  width: 80%;
   position: relative;
 }
 
@@ -233,5 +257,99 @@ body {
   font-size: 1rem;
   font-style: italic;
   color: #1E5D57;
+}
+
+/*--Section-numbers--*/
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.counter1 {
+  -webkit-animation: counter 5s forwards ease-in-out;
+          animation: counter 5s forwards ease-in-out;
+  counter-reset: num var(--num);
+  font: 3rem system-ui;
+}
+
+.counter1::after {
+  content: counter(num);
+}
+
+@-webkit-keyframes counter {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 607;
+  }
+}
+
+@keyframes counter {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 607;
+  }
+}
+
+.counter2 {
+  -webkit-animation: counter2 5s forwards ease-in-out;
+          animation: counter2 5s forwards ease-in-out;
+  counter-reset: num var(--num);
+  font: 3rem system-ui;
+}
+
+.counter2::after {
+  content: counter(num);
+}
+
+@-webkit-keyframes counter2 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 3;
+  }
+}
+
+@keyframes counter2 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 3;
+  }
+}
+
+.counter3 {
+  -webkit-animation: counter3 2s forwards ease-in-out;
+          animation: counter3 2s forwards ease-in-out;
+  counter-reset: num var(--num);
+  font: 3rem system-ui;
+}
+
+.counter3::after {
+  content: counter(num);
+}
+
+@-webkit-keyframes counter3 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 107;
+  }
+}
+
+@keyframes counter3 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 107;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
