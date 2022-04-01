@@ -61,7 +61,7 @@ html {
         .background-image {
             position: relative;
             height: 100%;
-            max-height: 950px;
+            max-height: 985px;
         }
             .background-image::before {
                 content: "";
@@ -76,7 +76,7 @@ html {
                 opacity: 0.5;
                 position: absolute;
                 height: 100%;
-                max-height: 950px;  
+                max-height: 985px;  
             }
                 .text {
                     position: relative;
@@ -91,14 +91,14 @@ html {
                         margin: auto;
                         opacity: 0.5;
                         width: 90%;
-                        max-height: 780px;
+                        max-height: 915px;
                         height: 100%;
                         position: absolute;
                     }
                         .block-text {
                             text-align: center;
                             margin: auto;
-                            max-height: 755px;
+                            max-height: 900px;
                             height: 100%;
                             width: 80%;
                             position: relative;
@@ -241,6 +241,25 @@ html {
         }
         to {
           --num: 107;
+        }
+      }
+
+      .counter4 {
+        animation: counter4 2s forwards ease-in-out;
+        counter-reset: num var(--num);
+        font: 3rem system-ui;
+      }
+
+      .counter4::after {
+        content: counter(num);
+      }
+      
+      @keyframes counter4 {
+        from {
+          --num: 0;
+        }
+        to {
+          --num: 97;
         }
       }
     
