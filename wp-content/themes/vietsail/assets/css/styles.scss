@@ -1,0 +1,278 @@
+@import './variables.scss';
+
+
+html {
+    overflow-x: hidden;
+  }
+  
+  body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+/*--Section-Navigation---*/
+#section-navigation {
+    position: relative;
+    right: 0;
+    width: 100%;
+    min-height: 750px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+    z-index: 2;
+    overflow: hidden;
+    header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        justify-content: space-between;
+        align-items: center;
+    } 
+        iframe {
+            position: absolute;
+            top: 0;
+            left: -10%;
+            right: -10%;
+            bottom: -20%;
+            // width: 100%;
+            // height: 750px;
+            //max-height: 750px;
+            object-fit: cover;
+            min-width: 120%;
+            height: calc(100vw/1.77);
+            z-index:-1;
+        }
+            .overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 10000px;
+                // max-height: 750px;
+                background: var(--color-5);
+                opacity: 0.5;
+                z-index: -1;
+            }
+                a.nav-link {
+                    text-align: center;
+                } 
+}
+
+    /*--Section-Eco--*/
+    #section-eco {
+        .background-image {
+            position: relative;
+            height: 100%;
+            max-height: 985px;
+        }
+            .background-image::before {
+                content: "";
+                background-image: url(/assets/imagesVsails/fishTurtuleIsland2.jpg);
+                background-color: var(--color-1);
+                background-size: cover;
+                background-repeat: no-repeat;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                opacity: 0.5;
+                position: absolute;
+                height: 100%;
+                max-height: 985px;  
+            }
+                .text {
+                    position: relative;
+                }
+                    .text::before {
+                        content: "";
+                        background-color: var(--color-3);
+                        border: var(--color-1) solid 2px;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                        margin: auto;
+                        opacity: 0.5;
+                        width: 90%;
+                        max-height: 915px;
+                        height: 100%;
+                        position: absolute;
+                    }
+                        .block-text {
+                            text-align: center;
+                            margin: auto;
+                            max-height: 900px;
+                            height: 100%;
+                            width: 80%;
+                            position: relative;
+                        }
+    }
+
+    /*--Section-Lessons--*/
+    #lessons-top {
+        width: 100%;
+        background-color: var(--color-3);
+        .title h3 {
+            background-color: #fff;
+            border-radius: 20px 20px 20px 20px;
+            font-weight: 700;
+            color: var(--color-2);
+            width: 100%;
+            max-width: 550px;
+         }
+    }
+
+    #home-lessons {
+        width: 100%;
+        background-color: var(--color-3);
+        padding-top: 25px;
+        h4 {
+            background-color: #fff;
+            width: 100%;
+            max-width: 550px;
+            border-radius: 0px 20px 20px 0px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--color-2);
+            padding-left: 1%;  
+        }
+            .list-group-item {
+                border: none;
+                background-color: var(--color-3);
+                list-style-type: disc;
+                list-style-position: inside;
+                font-size: 1.4rem;
+                font-weight: 400;
+                display: list-item; 
+            }
+                span {
+                    font-weight: 800;
+                }
+                    h5 {
+                        background-color: #fff;
+                        border-radius: 20px 20px 20px 20px;
+                        font-weight: 700;
+                        color: var(--color-2);
+                        width: 100%;
+                        max-width: 550px;
+                    }
+    }
+
+    /*--Section-Our-Boat--*/
+    #section-our-boats {
+        img {
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;  
+        }
+            h4 {
+                font-weight: bold;
+                font-size: 1.9rem; 
+            }
+                p {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                    font-size: 1.6rem;
+                    letter-spacing: -1px;
+                    line-height: 30px;  
+                }
+                    .italic-text {
+                        font-size: 1rem;
+                        font-style: italic;
+                        color: #1E5D57; 
+                    }
+    } 
+
+    /*--Section-numbers--*/
+    @property --num {
+        syntax: "<integer>";
+        initial-value: 0;
+        inherits: false;
+      }
+      
+      .counter1 {
+        animation: counter 5s forwards ease-in-out;
+        counter-reset: num var(--num);
+        font: 3rem system-ui;
+      }
+
+      .counter1::after {
+        content: counter(num);
+      }
+      
+      @keyframes counter {
+        from {
+          --num: 0;
+        }
+        to {
+          --num: 607;
+        }
+      }
+      
+      .counter2 {
+        animation: counter2 5s forwards ease-in-out;
+        counter-reset: num var(--num);
+        font: 3rem system-ui;
+    }
+
+      .counter2::after {
+        content: counter(num);
+      }
+      
+      @keyframes counter2 {
+        from {
+          --num: 0;
+        }
+        to {
+          --num: 3;
+        }
+      }
+      
+      .counter3 {
+        animation: counter3 2s forwards ease-in-out;
+        counter-reset: num var(--num);
+        font: 3rem system-ui;
+      }
+
+      .counter3::after {
+        content: counter(num);
+      }
+      
+      @keyframes counter3 {
+        from {
+          --num: 0;
+        }
+        to {
+          --num: 107;
+        }
+      }
+
+      .counter4 {
+        animation: counter4 2s forwards ease-in-out;
+        counter-reset: num var(--num);
+        font: 3rem system-ui;
+      }
+
+      .counter4::after {
+        content: counter(num);
+      }
+      
+      @keyframes counter4 {
+        from {
+          --num: 0;
+        }
+        to {
+          --num: 97;
+        }
+      }
+
+      
+    
+    
+          
+    
+  
